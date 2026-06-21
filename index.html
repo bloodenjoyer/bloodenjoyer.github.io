@@ -1,9 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <title>test</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player de Vídeo</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #111;
+    }
+
+    video {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
 </head>
 <body>
-  <h1>test</h1>
+  <video controls autoplay>
+    <source src="https://raw.githubusercontent.com/bloodenjoyer/ignore/main/jfl.mp4" type="video/mp4">
+    Seu navegador não suporta vídeo HTML5.
+  </video>
 </body>
 </html>
